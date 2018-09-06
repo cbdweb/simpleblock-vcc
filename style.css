@@ -1,0 +1,26 @@
+/*
+ Theme Name:   Simpleblock Child
+ Theme URI:    https://www.cbdweb.net
+ Description:  Simpleblock child for Victorian Cycling Campaign
+ Author:       Nik Dow
+ Author URI:   https://www.cbdweb.net
+ Template:     simpleblock
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  simpleblock-child
+*/
+h1.site-title {
+  height: 50px;
+  background-color: #1e347e;
+  padding: 20px 0;
+  margin: 10px 0 0 0;
+  color: white;
+  background-image: none !important;
+  text-indent: 350px !important;
+  font-size: 130%;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
