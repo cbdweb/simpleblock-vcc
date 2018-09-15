@@ -12,9 +12,9 @@
  Text Domain:  simpleblock-child
 */
 h1.site-title {
-  height: 0px;
+  height: 0px !important;
   background-color: #1e347e;
-  padding: 8px 0;
+  padding: 8px 0 !important;
   margin: 10px 0 0 0;
   color: white;
   background-image: none !important;
