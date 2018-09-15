@@ -12,9 +12,9 @@
  Text Domain:  simpleblock-child
 */
 h1.site-title {
-  height: 50px;
+  height: 0px;
   background-color: #1e347e;
-  padding: 20px 0;
+  padding: 8px 0;
   margin: 10px 0 0 0;
   color: white;
   background-image: none !important;
@@ -22,5 +22,36 @@ h1.site-title {
   font-size: 130%;
   font-weight: bold;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+ul#menu-header-menu > li > a {
+  white-space: nowrap; }
+
+ul#menu-header-menu > li > ul.sub-menu {
+  -webkit-padding-start: 0;
+  padding-left: 0; }
+
+ul#menu-header-menu > li > ul.sub-menu > li {
+  list-style-type: none;
+  display: none;
+  width: 100%;
+  white-space: nowrap;
+  overflow: visible;
+  clear: left; }
+
+ul#menu-header-menu > li:hover > ul.sub-menu > li {
+  display: block; }
+
+ul#menu-header-menu > li.current-menu-ancestor {
+  font-weight: bold; }
+
+ul#menu-header-menu > li.current-menu-item > ul, ul#menu-header-menu > li.current-menu-ancestor > ul {
+  font-weight: normal; }
+
+ul#menu-header-menu > li > ul.sub-menu > li > ul > li {
+  float: left;
+  list-style-type: none;
+  width: 100%;
+  white-space: nowrap;
+  overflow: visible; }
 
 /*# sourceMappingURL=style.css.map */
